@@ -5,7 +5,7 @@ CREATE TABLE questions (
     option2 VARCHAR(255) NOT NULL,
     option3 VARCHAR(255) NOT NULL,
     correct_option INT NOT NULL,
-    explaination TEXT NOT NULL
+    explanation TEXT NOT NULL
 );
 
 INSERT INTO questions (question, option1, option2, option3, correct_option, explaination) VALUES
